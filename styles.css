@@ -1,0 +1,115 @@
+body {
+    font-family: 'script', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #933;
+    color: #fff;
+    text-align: center;
+    padding: 2em 0;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2em 0.5em;
+    background-color: #f5f5f5;
+}
+
+.service {
+    flex: 1;
+    max-width: 300px;
+    margin: 0 1em;
+    margin-bottom: 2em;
+    padding: 1em;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.service:hover {
+    transform: scale(1.05);
+}
+
+.service img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1em;
+}
+
+.service h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.service p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+.contact {
+    text-align: center;
+    padding: 4em 2em;
+    background-color: #333;
+    color: #fff;
+}
+
+.contact h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+footer {
+    text-align: center;
+    padding: 2em 0;
+    background-color: #444;
+    color: #fff;
+}
+/* Existing styles remain unchanged */
+
+.site-title {
+    font-family: 'DejaVu Sans ', ;
+    font-size: 3em;
+    color: #3498db; /* Change the color to your preference */
+    margin-bottom: 0.5em;
+}
+/* Existing styles remain unchanged */
+
+.site-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 3em;
+    color: #3498db; /* Change the color to your preference */
+    margin-bottom: 0.5em;
+}
+
+/* Style for WhatsApp button */
+.whatsapp-button {
+    display: inline-block;
+    background-color: #25d366; /* WhatsApp green color */
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 1.5em;
+    margin-top: 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.whatsapp-button:hover {
+    background-color: #128C7E; /* Darker shade for hover effect */
+}
